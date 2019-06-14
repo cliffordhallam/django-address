@@ -1,5 +1,9 @@
 # django-address
 
+## Note for Clifford Hallam
+This fork restricts addresses to being within Australia by hard-coding the 'country' argument passed to _geocomplete_.
+The `australia_only` branch is used for this purpose.
+
 ## Disclaimer
 
 These instructions are a little shabby, I haven't had a whole lot of time to
